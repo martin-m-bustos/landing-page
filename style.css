@@ -98,6 +98,8 @@ li {
 .container {
     display: flex;
     justify-content: center;
+    gap: 64px;
+    margin-top: 64px;
 }
 
 .information {
@@ -107,10 +109,11 @@ li {
 }
 
 .box {
-    border: #3882F6;
+    border: 2px #3882F6 solid;
+    background: white;
     height: 150px;
     width: 150px;
-    border-radius 16px;
+    border-radius: 16px;
 }
 
 .info {
