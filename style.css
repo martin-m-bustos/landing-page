@@ -1,0 +1,198 @@
+body {
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 32px 64px 32px;
+}
+
+.headertop {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    flex: 0;
+}
+
+.headerbot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    gap: 64px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.herocontainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    gap: 8px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    flex: 1;
+}
+
+.imgcontainer {
+    display: flex;
+    flex: 1;
+    max-width: 450px;
+}
+
+.imgplace {
+    display: flex;
+    background: gray;
+    width: 450px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a, .herosub {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+li {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.buttonone {
+    border: none;
+    border-radius: 8px;
+    color: #F9FAF8;
+    background: #3882F6;
+    padding: 8px 16px;
+    width: 100px;
+}
+/* Section Two */
+
+.sectiontwo {
+    text-align: center;
+    padding: 36px 0 72px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.box {
+    border: #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius 16px;
+}
+
+.info {
+    max-width: 150px;
+}
+
+/* Quote Section */
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.thor {
+    text-align: end;
+    font-weight: 700;
+}
+
+.qcontain {
+    width: 800px;
+    margin: 100px;
+}
+
+/* Call to Action */
+
+.actcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.action {
+    width: 1000px;
+    height: 150px;
+    background: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+.call {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.buttontwo {
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+    background: #3882F6;
+    padding: 8px 16px;
+    width: 100px;
+    height: 25px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+
+.footer {
+    background: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+}
